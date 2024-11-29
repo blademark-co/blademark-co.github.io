@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/plugin.css">
@@ -69,16 +69,17 @@
             color: #fff;
             border-left: 1px solid #ffffff18;
         }
+
         @media (min-width: 769px) {
             .mail-btn {
                 display: none;
             }
         }
+
         @media (max-width: 768px) {
 
             .sico i {
                 color: #fff;
-
             }
 
             .sico {
@@ -187,8 +188,8 @@
             <!-- Bg video block -->
             <div class="bg-video-block">
                 <div class="bg-video-wrap">
-                    <video class="video-bg" src="img/bg-video/bgvid9.mp4" loop muted autoplay></video>
-                    <video class="video-bg-mobile" src="img/bg-video/bgvid9.mp4" loop muted autoplay></video>
+                    <video class="video-bg" oncontextmenu="return false;" src="img/bg-video/coming-soon.mp4" loop muted autoplay></video>
+                    <video class="video-bg-mobile" oncontextmenu="return false;" src="img/bg-video/coming-soon.mp4" loop muted autoplay></video>
                     <!-- <div class="video-overlay"></div> -->
                     <!-- <div class="video-content">
                         <div class="container" data-aos="fade-up">
@@ -235,10 +236,13 @@
         <!-- end Footer -->
     </div>
     <!-- MAIN WRAPPER END -->
-    <!-- Footer Scripts
-            ============================================= -->
-    <!-- JavaScripts
-        ============================================= -->
+    <script>
+        document.addEventListener('touchstart', function(e) {
+          if (e.touches.length > 1) {
+            e.preventDefault();
+          }
+        });
+      </script>
     <script src="https://kit.fontawesome.com/795dc7cffd.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.smartmenus.min.js"></script>
