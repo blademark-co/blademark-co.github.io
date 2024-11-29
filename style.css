@@ -515,7 +515,7 @@ li.menu-item a {
   /* min-width: 100%; */
   min-width: 80%;
   min-height: 100vh;
-  /* max-width: 20%; */
+  max-width: 20%;
   z-index: 1;
   position: relative;
   left: 50%;
