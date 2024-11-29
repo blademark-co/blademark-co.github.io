@@ -14,9 +14,12 @@
     <title>Blademark Co.</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <style>
+        .header-style1-wrap {
+            padding-right: 0;
+        }
         #header {
             background: #000;
-            border-bottom: 1px solid #ffffff15; 
+            border-bottom: 1px solid #ffffff18; 
         }
 
         h2.logo-title a {
@@ -25,13 +28,23 @@
 
         li.menu-item a {
             color: #fff;
-            text-transform: capitalize;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+        }
+        .sm-clean li {
+            margin-right: 0;
         }
 
         #footer {
             position: fixed;
             background: #000;
-            border-top: 1px solid #ffffff15;
+            border-top: 1px solid #ffffff18;
         }
 
         .main-wrapper {
@@ -51,7 +64,26 @@
         }
         p.dribbble-btn {
 color: #fff;
-border-left: 1px solid #ffffff15;
+border-left: 1px solid #ffffff18;
+        }
+        @media (max-width: 768px) {
+
+.sico i {
+  color: #fff;
+ 
+}
+.sico {
+  border-left: 1px solid #ffffff18;
+  width: 47px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav {
+  border-radius: 0;
+  
+}
         }
 
     </style>
@@ -80,14 +112,12 @@ border-left: 1px solid #ffffff15;
                         ============================================= -->
                     <nav class="main-nav col-span-9  sm:col-span-12">
                         <!-- Mobile menu toggle button -->
-                        <button class="jepret-menu-mobile">
-                            <i class="icon icon-reorder"></i>
-                        </button>
+                        <a href="https://dribbble.com/blademark" target="_blank" class="sico"><i class="fa-solid fa-basketball"></i></a>
                         <!-- Sample menu definition -->
                         <ul id="main-menu" class="sm sm-clean mobile-menu">
                             <li class="menu-item has-submenu" data-aos="fade" data-aos-duration="400"
                             data-aos-easing="ease" data-aos-delay="50" data-aos-offset="0">
-                            <a href="#">Instagram</a>
+                            <!-- <a href="#" class="sico"><i class="fa-brands fa-instagram instagram-btn"></i></a> -->
                             <!-- <ul class="sub-menu">
                                 <li class="menu-item-sub"><a href="logos-vol1.html">VOL. 1 - MARKS</a></li>
                                 <li class="menu-item-sub"><a href="logos-vol2.html">VOL. 2 - LOGOS</a></li>
@@ -95,7 +125,7 @@ border-left: 1px solid #ffffff15;
                         </li>
                         <li class="menu-item has-submenu" data-aos="fade" data-aos-duration="400"
                             data-aos-easing="ease" data-aos-delay="50" data-aos-offset="0">
-                            <a href="#">Behance</a>
+                            <!-- <a href="#" class="sico"><i class="fa-brands fa-behance"></i></a> -->
                             <!-- <ul class="sub-menu">
                                 <li class="menu-item-sub"><a href="merch-gtlight.html">VOL. 1 - GT LIGHT BLACK</a></li>
                                 <li class="menu-item-sub"><a href="merch-gtdark.html">VOL. 1 - GT DARK BLACK</a></li>
@@ -107,7 +137,7 @@ border-left: 1px solid #ffffff15;
                         </li>
                         <li class="menu-item has-submenu" data-aos="fade" data-aos-duration="400"
                         data-aos-easing="ease" data-aos-delay="50" data-aos-offset="0">
-                        <a href="#">Dribbble</a>
+                        <a href="https://dribbble.com/blademark" target="_blank" class="sico"><i class="fa-solid fa-basketball"></i></a>
                         <!-- <ul class="sub-menu">
                             <li class="menu-item-sub"><a href="merch-gtlight.html">VOL. 1 - GT LIGHT BLACK</a></li>
                             <li class="menu-item-sub"><a href="merch-gtdark.html">VOL. 1 - GT DARK BLACK</a></li>
