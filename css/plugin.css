@@ -360,7 +360,7 @@
   .sm-clean a:active,
   .sm-clean a.highlighted {
     padding: 10px 0px 10px 0px;
-    color: #000;
+    color: #fff;
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
     -ms-border-radius: 0 !important;

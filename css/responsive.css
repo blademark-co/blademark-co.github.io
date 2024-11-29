@@ -8,6 +8,9 @@
   .container {
     max-width: 1080px;
   }
+  .video-bg-mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -30,6 +33,11 @@
 }
 
 @media (max-width: 1200px) {
+  .video-bg {
+  display: none;
+}
+
+
   .video-content {
     width: 80%;
   }
@@ -744,6 +752,14 @@
 }
 
 @media (max-width: 768px) {
+  .sm.mobile-menu {
+    border: 1px solid #00000014;
+    margin-top: 20px !important;
+  }
+
+  li.menu-item a {
+    color: #000 !important;
+}
   .column {
     float: none;
     max-width: 100%;
@@ -837,6 +853,7 @@
   .copyright {
     text-align: center;
     padding: 5px 19px 5px;
+    padding: 0;
   }
 
   .swipper-inner-wrap {
@@ -1575,6 +1592,7 @@
 }
 
 @media (max-width: 640px) {
+  
   .adora-contcept-block {
     padding: 0 20px;
   }
